@@ -30,4 +30,9 @@ export class FrameworkBodyComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scroll(el: HTMLElement) {
+    console.log('scroll');
+    el.scrollIntoView({behavior: 'smooth'});
+  }
+
 }
