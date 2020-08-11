@@ -35,4 +35,9 @@ export class ScreenService {
         this.resizeSource.next();
     }
 
+    onUpdate(){
+        
+
+    }
+
 }

@@ -15,6 +15,8 @@ export class ScreenBelowLarge implements OnDestroy {
     ) {
 
     this.screenSubscription = screenService.resize$.subscribe(() => this.onResize());
+    this.screenService.onResize(null);
+
 
   }
 

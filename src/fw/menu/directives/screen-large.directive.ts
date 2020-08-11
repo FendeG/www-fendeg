@@ -16,6 +16,7 @@ export class ScreenLarge implements OnDestroy {
 
     this.screenSubscription = screenService.resize$.subscribe(() => this.onResize());
     console.log('screen large constructor : ');
+    this.screenService.onResize(null);
     
 
   }
