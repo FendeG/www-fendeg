@@ -1,0 +1,18 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left:0;
+    position: absolute;
+    // background: url('../../assets/background.jpg') no-repeat;
+    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
+  
+    background-size: cover;
+    color: white;
+    text-align: center;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
