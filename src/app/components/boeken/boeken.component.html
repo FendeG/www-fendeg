@@ -1,17 +1,4 @@
-<p>boeken works!</p>
-
-<div class="flexbox-container">
-  <div class="flex-item" *ngFor="let book of books">
-    <div>
-      <h3>title: {{book.title}}</h3>
-      <div>
-        Schrijver : {{ book.writer}}
-      </div>
-    </div>
-    <div>
-      <img [src]="book.image" [alt]="book.title">
-    </div>
-  </div>
-
-
-</div>
+<fw-panel *ngFor="let book of books;let i=index">
+  <app-book-panel [book]="book" [index]="i+1">
+  </app-book-panel>
+</fw-panel>

@@ -1,0 +1,26 @@
+<div *screenLarge class="group">
+    <!-- book : {{ book | json }} -->
+
+
+    <div class="index">
+        <span>{{ index }}</span>
+    </div>
+
+    <div>
+        <img class="book-image" src="/assets/book-cover.jpeg" [alt]="book.title">
+    </div>
+
+    <div class="book-name">
+        <span>{{ book.name}}</span>
+    </div>
+
+    <div class="book-title">
+        <span>{{ book.title}}</span>
+    </div>
+
+</div>
+
+<div *screenBelowLarge class="group-small">
+    small 
+</div>
+

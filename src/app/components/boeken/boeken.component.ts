@@ -23,16 +23,19 @@ export class BoekenComponent implements OnInit {
       title: 'Frank',
       writer: 'Frankie',
       description: 'ddfdfdfd',
-      image: ''
+      image: 'image1'
     }
     );
+
     this.books.push({
       title: 'Gertrud',
       writer: 'Gertrud',
       description: 'bla bla bal',
-      image: ''
+      image: 'image2'
     }
     );
+
+    
 
 
     

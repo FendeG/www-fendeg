@@ -18,6 +18,7 @@ import { BackgroundFullComponent } from './components/background-full/background
 // import { AngularFireAuthModule } from '@angular/fire/auth';
 
 import { environment } from '../environments/environment';
+import { BookPanelComponent } from './components/book-panel/book-panel.component';
 
 
 
@@ -30,6 +31,7 @@ import { environment } from '../environments/environment';
     BoekenComponent,
     AboutComponent,
     BackgroundFullComponent,
+    BookPanelComponent,
 
   ],
   imports: [
