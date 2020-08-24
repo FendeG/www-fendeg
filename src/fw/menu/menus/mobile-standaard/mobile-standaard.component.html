@@ -1,0 +1,117 @@
+<!-- <input type="checkbox" class="check">
+
+<div class="header">
+ <div class="bars">
+    <span></span>
+    <span></span>
+    <span></span>
+ </div>
+</div> -->
+
+
+
+<div class="flexbox-container">
+
+  <div class="item">
+
+    <div class="container" (click)="onMenuOpen()">
+      <div id="hamburger" [ngClass]="{'open':isMenuOpen}">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <!-- <img src="assets/logo.jpg" alt="Van Dijken Communicatie" height="30px"> -->
+    <a href="home"><img src="assets/logo.jpg" alt="Van Dijken Communicatie" height="30px"></a>
+
+  </div>
+
+
+  <div class="item-linkedin">
+    <fw-linkedin-icon height="20" href="http://www.linkedin.com"></fw-linkedin-icon>
+    
+  </div>
+
+
+</div>
+
+<div [ngClass]="{'side-bar':true,'open':isMenuOpen}">
+
+  <ul>
+    <li><a href="home-mobile">home</a></li>
+    <li><a href="aanbod">Aanbod</a></li>
+    <li><a href="projecten">Projecten</a></li>
+    <li><a href="opdrachtgevers">Opdrachtgevers</a></li>
+    <li><a href="profiel">Profiel</a></li>
+    <li><a href="contact">Contact</a></li>
+
+  </ul>
+
+  <img src="assets/petervandijken.jpg" alt="Van Dijken Communicatie" height="100px">
+
+
+  <!-- <img [src]="iconService.iconFacebook64Square">
+  <img [src]="iconService.iconTwitter64Square"> -->
+  <fw-linkedin-icon height='50'></fw-linkedin-icon>
+  <!-- <img src="assets/linkedin/in.png" alt="LinkedIn" height="50px"> -->
+</div>
+
+
+<!-- 
+
+<div class="header"></div>
+
+  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+
+  <div id="sidebarMenu">
+    <ul class="sidebarMenuInner">
+      <li>Jelena Jovanovic <span>Web Developer</span></li>
+      <li><a href="aanbod" >Company</a></li>
+      <li><a href="https://instagram.com/plavookac" target="_blank">Instagram</a></li>
+      <li><a href="https://twitter.com/plavookac" target="_blank">Twitter</a></li>
+      <li><a href="https://www.youtube.com/channel/UCDfZM0IK6RBgud8HYGFXAJg" target="_blank">YouTube</a></li>
+      <li><a href="https://www.linkedin.com/in/plavookac/" target="_blank">Linkedin</a></li>
+    </ul>
+  </div>
+  <div id='center' class="main center">
+    <div class="mainInner">
+      <div>PURE CSS SIDEBAR TOGGLE MENU</div>
+    </div>
+    <div class="mainInner">
+      <div>PURE CSS SIDEBAR TOGGLE MENU</div>
+    </div>
+    <div class="mainInner">
+      <div>PURE CSS SIDEBAR TOGGLE MENU</div>
+    </div>
+  </div> -->
+
+
+<!-- <div class="header">
+  <div style="float:left">
+    <img src="assets/logo.jpg" alt="Van Dijken Communicatie" height="50px">
+  </div>
+
+  <div style="float: right;">
+
+    <fw-hamburger1-button></fw-hamburger1-button>
+  </div>
+  <div *ngIf="false">
+  <ul>
+    <li><a href="aanbod">Aanbod</a></li>
+    <li><a href="projecten">Projecten</a></li>
+    <li><a href="opdrachgevers">Opdrachtgevers</a></li>
+    <li><a href="profiel">Profiel</a></li>
+    <li><a href="contact">Contact</a></li>
+
+  </ul>
+</div>
+
+</div> -->

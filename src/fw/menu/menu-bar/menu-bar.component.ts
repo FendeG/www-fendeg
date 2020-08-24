@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ScreenService } from '../services/screen.service';
+import { ScreenService } from '../../services/screen.service';
 
 @Component({
   selector: 'fw-menu-bar',
