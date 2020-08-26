@@ -20,16 +20,24 @@ export class BoekenComponent implements OnInit {
   ngOnInit(): void {
 
     this.books.push({
-      title: 'Frank',
-      writer: 'Frankie',
+      title: 'Title Frank',
+      writer: 'Writer Frankie',
       description: 'ddfdfdfd',
       image: 'image1'
     }
     );
 
     this.books.push({
-      title: 'Gertrud',
-      writer: 'Gertrud',
+      title: 'Title Gertrud',
+      writer: 'Writer Gertrud',
+      description: 'bla bla bal',
+      image: 'image2'
+    }
+    );
+
+    this.books.push({
+      title: 'Title Djensly',
+      writer: 'Djensly Writer',
       description: 'bla bla bal',
       image: 'image2'
     }

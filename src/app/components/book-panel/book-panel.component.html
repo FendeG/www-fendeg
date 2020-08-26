@@ -1,26 +1,41 @@
 <div *screenLarge class="group">
-    <!-- book : {{ book | json }} -->
+  <!-- book : {{ book | json }} -->
 
 
-    <div class="index">
-        <span>{{ index }}</span>
-    </div>
+  <div class="index">
+    <span>{{ index }}</span>
+  </div>
 
-    <div>
-        <img class="book-image" src="/assets/book-cover.jpeg" [alt]="book.title">
-    </div>
+  <div>
+    <img class="book-image" src="/assets/book-cover.jpeg" [alt]="book.title">
+  </div>
 
-    <div class="book-name">
-        <span>{{ book.name}}</span>
+  <div class="writer-title">
+      
+    <div class="book-writer">
+      <span>{{ book.writer}}</span>
     </div>
 
     <div class="book-title">
-        <span>{{ book.title}}</span>
+      <span>{{ book.title}}</span>
     </div>
+  </div>
 
 </div>
+
 
 <div *screenBelowLarge class="group-small">
-    small 
-</div>
 
+  <div class="book-writer-small">
+    <span>{{book.writer}}</span>
+  </div>
+
+  <div>
+    <img class="book-image-small" src="/assets/book-cover.jpeg" [alt]="book.title">
+  </div>
+
+  <div class="book-title-small">
+    <span>{{book.title}}</span>
+  </div>
+
+</div>
