@@ -1,27 +1,29 @@
-<div *screenLarge class="group">
+<div *screenLarge class="flex-row-container">
   <!-- book : {{ book | json }} -->
 
-
-  <div class="index">
-    <span>{{ index }}</span>
-  </div>
-
-  <div>
-    <img class="book-image" src="/assets/book-cover.jpeg" [alt]="book.title">
-  </div>
-
-  <div class="writer-title">
-      
-    <div class="book-writer">
-      <span>{{ book.writer}}</span>
+  <div class="flex-row-item">
+   <!--  <div class="index">
+      <span>{{ index }}</span>
     </div>
 
-    <div class="book-title">
-      <span>{{ book.title}}</span>
+    <div>
+      <img class="book-image" src="/assets/book-cover.jpeg" [alt]="book.title">
     </div>
-  </div>
 
+    <div class="writer-title">
+
+      <div class="book-writer">
+        <span>{{ book.writer}}</span>
+      </div>
+
+      <div class="book-title">
+        <span>{{ book.title}}</span>
+      </div>
+    </div> -->
+  </div>
 </div>
+
+
 
 
 <div *screenBelowLarge class="group-small">
