@@ -44,6 +44,14 @@ export class BoekenComponent implements OnInit {
     );
 
     
+    this.books.push({
+      title: 'Title Rosa',
+      writer: 'Rosa Writer',
+      description: 'bla bla bal',
+      image: 'image2'
+    }
+    );
+    
 
 
     

@@ -1,14 +1,14 @@
-<fw-panel *ngFor="let book of books;let i=index">
+<!-- <fw-panel *ngFor="let book of books;let i=index">
   <app-book-panel [book]="book" [index]="i+1">
   </app-book-panel>
-</fw-panel>
+</fw-panel> -->
 
 
 <div class="flex-row-container">
   <div *ngFor="let book of books;let i=index" class="flex-row-item">
-      <div class="index">
+      <!-- <div class="index">
       <span>{{ index }}</span>
-    </div>
+    </div> -->
 
     <div>
       <img class="book-image" src="/assets/book-cover.jpeg" [alt]="book.title">

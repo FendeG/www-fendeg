@@ -1,100 +1,108 @@
 // https://codepen.io/letehaha/pen/jrMROW
 
-.flexbox-container{
-    display: flex;
-    // align-content: center;
-    // justify-items: center;
-    padding-top: 50px;
-    flex-direction: column;
-	flex-wrap: wrap;
-	height: 100vw;
-	// font-size: 0; 
+.flexbox-container {
+  display: flex;
+  // align-content: center;
+  // justify-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vw;
+  // font-size: 0; 
 }
 
 .flex-item {
-    width: 33.333333%;
-    transition: opacity .3s;
+  width: 33.333333%;
+  transition: opacity .3s;
 
-    background: none whitesmoke;
-    border-radius: 5px;
-    // cursor: pointer;
-    // -webkit-box-shadow: 0 4px 4px -5px #c8c8c8;
-    box-shadow: 0 4px 4px -5px #c8c8c8;
-    padding: 10px;
-    // width: calc(25% - 10px);
-    margin: 5px;
-  }
+  background: none whitesmoke;
+  border-radius: 5px;
+  // cursor: pointer;
+  // -webkit-box-shadow: 0 4px 4px -5px #c8c8c8;
+  box-shadow: 0 4px 4px -5px #c8c8c8;
+  padding: 10px;
+  // width: calc(25% - 10px);
+  margin: 5px;
+}
 
 // .flex-item img{
 //     // width: 100%;
 //     // display: block;
 // }
 
+
+// --------------------------------------------
+//  Large
+// --------------------------------------------
+
+
 .flex-row-container {
   background: #aaa;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  // align-items: center;
+  // justify-content: center;
 }
-.flex-row-container > .flex-row-item {
-  flex: 1 1 30%; /*grow | shrink | basis */
+
+.flex-row-container>.flex-row-item {
+  flex: 0 0 30%;   /*grow | shrink | basis */
   // height: 100px;
 }
 
 .flex-row-item {
-background-color: #fff4e6;
-border: 1px solid #f76707;
+  background-color: whitesmoke;
+  border: 1px solid white;
+  
 }
 
 .book-image {
-  //   width: 240px;
-  //   margin: 14px;
-    background-size:cover;
-  }
-  
-  .writer-title{
-   display: flex;
-   flex-direction: column;
-   flex-grow: 1;
-  
-  
-  }
-  
-  .book-title {
-    display: flex;
-    flex-grow: 3;
-    font-size: 34px;
-    color: #555;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  
-  }
-  
-  .book-writer{
-      // text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-grow: 1;
-    background-color: yellow;
-  
-  
-  }
-  
-  .book-index {
-    display: flex;
-    font-size: 44px;
-    width: 180px;
-    color: white;
-    background-color: green;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .book-image {
-      width: 240px;
-      margin: 14px;
-    }
-  
+  width: 240px;
+  margin: 10px;
+  // background-size:cover;
+  // text-align: center;
+}
+
+.writer-title {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+
+}
+
+.book-title {
+  display: flex;
+  flex-grow: 3;
+  font-size: 34px;
+  color: #555;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.book-writer {
+  // text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-grow: 1;
+  background-color: yellow;
+
+
+}
+
+.book-index {
+  display: flex;
+  font-size: 44px;
+  width: 180px;
+  color: white;
+  background-color: green;
+  align-items: center;
+  justify-content: center;
+}
+
+// .book-image {
+//     width: 240px;
+//     margin: 14px;
+//   }
