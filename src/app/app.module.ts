@@ -19,6 +19,7 @@ import { BackgroundFullComponent } from './components/background-full/background
 
 import { environment } from '../environments/environment';
 import { BookPanelComponent } from './components/book-panel/book-panel.component';
+import { PhotosComponent } from './components/photos/photos.component';
 
 
 
@@ -32,6 +33,7 @@ import { BookPanelComponent } from './components/book-panel/book-panel.component
     AboutComponent,
     BackgroundFullComponent,
     BookPanelComponent,
+    PhotosComponent,
 
   ],
   imports: [

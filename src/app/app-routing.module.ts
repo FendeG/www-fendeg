@@ -8,6 +8,7 @@ import { BoekenComponent } from './components/boeken/boeken.component';
 import { AboutComponent } from './components/about/about.component';
 import { BackgroundFullComponent } from './components/background-full/background-full.component';
 
+import { PhotosComponent } from './components/photos/photos.component';
 
 const routes: Routes = [
 
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'boeken', component: BoekenComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'photos', component: PhotosComponent },
   { path: '',   redirectTo: '/dashboard', pathMatch: 'full' }, // redirect to `first-component`
  { path: '**', component: DashboardComponent },
 
